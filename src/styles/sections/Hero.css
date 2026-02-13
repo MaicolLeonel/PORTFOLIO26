@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   overflow: hidden;
+  padding-top: 72px;
 }
 
 .hero-grid-overlay {
@@ -19,7 +20,7 @@
   position: relative;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: var(--spacing-2xl);
+  gap: calc(var(--spacing-2xl) + 0.5rem);
   align-items: center;
   z-index: 1;
 }
@@ -70,7 +71,7 @@
   background: linear-gradient(160deg, rgba(124, 58, 237, 0.08), rgba(34, 211, 238, 0.08)),
     var(--color-surface-2);
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-lg);
+  border-radius: 26px;
   padding: var(--spacing-xl);
   box-shadow: var(--shadow-soft);
   overflow: hidden;

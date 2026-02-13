@@ -8,7 +8,6 @@ import TechStack from './sections/TechStack';
 import Projects from './sections/Projects';
 import Experience from './sections/Experience';
 import Contact from './sections/Contact';
-import CustomCursor from './components/layout/CustomCursor';
 import ScrollProgress from './components/layout/ScrollProgress';
 import ScrollToTop from './components/layout/ScrollToTop';
 import WhatsAppButton from './components/layout/WhatsAppButton';
@@ -25,7 +24,6 @@ function App() {
     <ThemeProvider>
       <div className="app-shell">
         <div className="grid-overlay" aria-hidden="true" />
-        <CustomCursor />
         <ScrollProgress />
         <Navbar />
         <main>

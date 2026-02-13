@@ -59,42 +59,21 @@ export const hardSkills = [
   },
   {
     id: 5,
-    name: "Node.js",
-    icon: "nodejs"
+    name: "Diseño responsive",
+    icon: "dashboard"
   },
   {
-    id: 6,
-    name: "Express",
-    icon: "express"
-  },
-  {
-    id: 7,
     name: "MySQL",
     icon: "mysql"
   },
   {
-    id: 8,
-    name: "Git",
-    icon: "git"
-  },
-  {
-    id: 9,
+    id: 6,
     name: "GitHub",
     icon: "github"
   },
   {
-    id: 10,
-    name: "REST API",
-    icon: "api"
-  },
-  {
-    id: 11,
-    name: "Dashboards",
-    icon: "dashboard"
-  },
-  {
-    id: 12,
-    name: "Automatizaciones",
+    id: 7,
+    name: "Optimización para conversión",
     icon: "automation"
   }
 ];
@@ -105,12 +84,8 @@ export const techStack = [
   { id: 3, name: "JavaScript", category: "Frontend" },
   { id: 4, name: "React", category: "Frontend" },
   { id: 5, name: "Vite", category: "Frontend" },
-  { id: 6, name: "Node.js", category: "Backend" },
-  { id: 7, name: "Express", category: "Backend" },
-  { id: 8, name: "MySQL", category: "Database" },
-  { id: 9, name: "Git", category: "Tools" },
-  { id: 10, name: "GitHub", category: "Tools" },
-  { id: 11, name: "REST API", category: "Backend" }
+  { id: 6, name: "MySQL", category: "Database" },
+  { id: 7, name: "GitHub", category: "Tools" }
 ];
 
 export const experienceData = [
@@ -119,7 +94,7 @@ export const experienceData = [
     title: "Desarrollador Web Freelancer",
     company: "TukCode",
     period: "2023 - Presente",
-    description: "Desarrollo de aplicaciones web, landing pages y dashboards para clientes. Trabajo con tecnologías modernas como React, Node.js y MySQL.",
+    description: "Desarrollo de landing pages y sitios web ligeros para clientes. Trabajo con tecnologías modernas como React y MySQL, priorizando velocidad y conversión.",
     type: "work"
   },
   {

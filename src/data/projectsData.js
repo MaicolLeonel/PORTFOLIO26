@@ -1,3 +1,5 @@
+import EmpresaGraciaLogo from '../assets/images/empresa-gracia-logo.svg';
+
 export const projectsData = [
   {
     id: 1,
@@ -7,34 +9,34 @@ export const projectsData = [
     type: "Landing Page",
     demoLink: "https://www.garciacortinas.com",
     codeLink: "#",
-    image: "https://via.placeholder.com/400x250?text=Garc%C3%ADa+Cortinas"
+    image: EmpresaGraciaLogo
   },
   {
     id: 2,
-    name: "E-commerce Simple con Carrito",
-    description: "Plataforma de comercio electrónico con gestión de productos, carrito de compras y proceso de checkout. Interfaz intuitiva y responsive.",
-    technologies: ["React", "CSS3", "JavaScript", "LocalStorage"],
-    type: "E-commerce",
+    name: "Landing para tienda online",
+    description: "Landing page para presentar una tienda online de forma simple: presentación de la marca, productos destacados y llamado a la acción para contacto o WhatsApp.",
+    technologies: ["React", "CSS3", "JavaScript", "Responsive Design"],
+    type: "Landing Page",
     demoLink: "#",
     codeLink: "#",
     image: "https://via.placeholder.com/400x250?text=E-commerce+Project"
   },
   {
     id: 3,
-    name: "Dashboard de Ventas",
-    description: "Panel de control interactivo para visualización de datos de ventas, estadísticas y métricas en tiempo real con gráficos dinámicos.",
-    technologies: ["React", "Chart.js", "CSS3", "REST API"],
-    type: "Dashboard",
+    name: "Landing para servicio profesional",
+    description: "Landing page para un profesional independiente, con secciones claras de servicios, testimonios y formulario de contacto.",
+    technologies: ["HTML5", "CSS3", "JavaScript"],
+    type: "Landing Page",
     demoLink: "#",
     codeLink: "#",
     image: "https://via.placeholder.com/400x250?text=Dashboard+Project"
   },
   {
     id: 4,
-    name: "Bot de Automatización",
-    description: "Bot inteligente para consultas frecuentes con integración de APIs, respuestas automatizadas y gestión de tareas repetitivas.",
-    technologies: ["Node.js", "Express", "REST API", "JavaScript"],
-    type: "Bot/Automatización",
+    name: "Landing para servicio de automatización",
+    description: "Página de presentación para un servicio de automatización, enfocada en explicar beneficios de forma sencilla y captar leads.",
+    technologies: ["React", "CSS3", "JavaScript"],
+    type: "Landing Page",
     demoLink: "#",
     codeLink: "#",
     image: "https://via.placeholder.com/400x250?text=Bot+Project"

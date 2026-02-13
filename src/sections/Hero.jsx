@@ -47,10 +47,10 @@ const Hero = () => {
           >
             <Typewriter
               texts={[
-                'Desarrollador Web & Freelancer',
-                'Creador de Soluciones Digitales',
-                'Especialista en React & Node.js',
-                'Diseñador de Experiencias Web',
+                'Diseñador de Landing Pages',
+                'Landing pages que convierten visitas en clientes',
+                'Especialista en React & MySQL',
+                'Sitios one-page rápidos y claros',
               ]}
               speed={90}
               deleteSpeed={50}
@@ -63,9 +63,9 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            Desarrollador web enfocado en crear soluciones simples, funcionales y visualmente atractivas.
-            Me gusta combinar diseño, código y automatización para ayudar a personas, negocios y proyectos
-            a tener presencia digital real.
+            Desarrollador web especializado en landing pages y sitios ligeros para negocios y profesionales.
+            Me enfoco en combinar diseño claro, buen código y estrategia para que tu proyecto tenga una presencia
+            digital que comunique, cargue rápido y genere contactos reales.
           </motion.p>
           <motion.div
             className="hero-actions"
@@ -81,9 +81,9 @@ const Hero = () => {
             </Button>
           </motion.div>
           <div className="hero-tags">
-            <Badge tone="ghost">React &amp; Vite</Badge>
-            <Badge tone="ghost">Node.js</Badge>
-            <Badge tone="ghost">Dashboards y Landing Pages</Badge>
+            <Badge tone="ghost">Landing pages optimizadas</Badge>
+            <Badge tone="ghost">React &amp; MySQL</Badge>
+            <Badge tone="ghost">Diseño responsive</Badge>
           </div>
         </motion.div>
 
@@ -127,7 +127,7 @@ const Hero = () => {
               </div>
               <div className="hero-meta-item">
                 <span className="label">Servicios</span>
-                <span className="value">Landing pages, dashboards, automatizaciones</span>
+                <span className="value">Landing pages, sitios one-page y pequeñas webs</span>
               </div>
               <div className="hero-meta-item">
                 <span className="label">Disponibilidad</span>

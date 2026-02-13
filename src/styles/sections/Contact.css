@@ -58,3 +58,8 @@
     justify-content: flex-start;
   }
 }
+.social-link {
+  position: relative;
+  z-index: 9999;
+  cursor: pointer;
+}

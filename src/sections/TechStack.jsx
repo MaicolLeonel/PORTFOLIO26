@@ -12,12 +12,8 @@ const techIcons = {
   JavaScript: '⚡',
   React: '⚛️',
   Vite: '⚡',
-  'Node.js': '🟢',
-  Express: '🚀',
   MySQL: '🗄️',
-  Git: '📦',
   GitHub: '🐙',
-  'REST API': '🔌',
 };
 
 const TechStack = () => {

@@ -11,17 +11,17 @@ const aboutBlocks = [
   {
     title: '¿Quién soy?',
     body:
-      'Soy Maicol Leonel Almirón, desarrollador web y freelancer apasionado por crear soluciones digitales que marquen la diferencia. Con base en Tucumán, Argentina, me dedico a transformar ideas en realidad a través del código.',
+      'Soy Maicol Leonel Almirón, desarrollador web y freelancer especializado en crear landing pages y sitios web ligeros para negocios y profesionales. Con base en Tucumán, Argentina, me dedico a transformar ideas en páginas claras, visuales y fáciles de navegar.',
   },
   {
     title: '¿En qué estoy trabajando?',
     body:
-      'Actualmente trabajo como freelancer desarrollando aplicaciones web, landing pages y dashboards para diversos clientes. Además, invierto tiempo en proyectos personales que me permiten experimentar con nuevas tecnologías y mejorar constantemente mis habilidades.',
+      'Actualmente trabajo como freelancer diseñando y desarrollando landing pages enfocadas en conversión, sitios one-page y pequeñas webs informativas. También dedico tiempo a proyectos personales para seguir puliendo detalles de diseño, performance y experiencia de usuario.',
   },
   {
     title: '¿Qué tipo de proyectos busco?',
     body:
-      'Estoy interesado en proyectos de desarrollo web, desde sitios corporativos hasta aplicaciones complejas. Me especializo en crear dashboards interactivos, e-commerce, landing pages atractivas y automatizaciones que optimicen procesos. Busco proyectos que me desafíen y me permitan crecer profesionalmente.',
+      'Busco principalmente proyectos de landing pages y sitios web pequeños para marcas personales, negocios locales y emprendimientos que necesitan una presencia clara y profesional en internet. Me interesa trabajar en proyectos donde pueda aportar orden, diseño y una estructura pensada para generar resultados reales.',
   },
 ];
 

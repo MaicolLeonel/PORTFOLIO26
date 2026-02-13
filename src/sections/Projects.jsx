@@ -42,7 +42,7 @@ const Projects = () => {
           {projectsData.map((project) => (
             <motion.div key={project.id} variants={itemVariants} whileHover={{ y: -6, scale: 1.01 }}>
               <Card className="project-card">
-                <div className="project-image">
+                <div className={`project-image ${project.id === 1 ? 'project-image--logo' : ''}`}>
                   <img src={project.image} alt={project.name} loading="lazy" />
                   <Badge tone="accent" className="project-type">
                     {project.type}
@@ -60,16 +60,7 @@ const Projects = () => {
                   </div>
                   <div className="project-actions">
                     <Button as="a" href={project.demoLink} target="_blank" rel="noopener noreferrer">
-                      Ver demo
-                    </Button>
-                    <Button
-                      as="a"
-                      href={project.codeLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      variant="secondary"
-                    >
-                      Código
+                      Ver página
                     </Button>
                   </div>
                 </div>

@@ -1,12 +1,4 @@
-body {
-  cursor: none;
-}
-
-@media (max-width: 768px) {
-  body {
-    cursor: auto;
-  }
-}
+/* Cursor global normal (sin ocultar el cursor del sistema) */
 
 .custom-cursor {
   position: fixed;

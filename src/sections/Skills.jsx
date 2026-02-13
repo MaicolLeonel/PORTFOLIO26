@@ -12,12 +12,8 @@ const iconMap = {
   css3: '🎨',
   javascript: '⚡',
   react: '⚛️',
-  nodejs: '🟢',
-  express: '🚀',
   mysql: '🗄️',
-  git: '📦',
   github: '🐙',
-  api: '🔌',
   dashboard: '📊',
   automation: '🤖',
 };
@@ -51,7 +47,7 @@ const Skills = () => {
         <SectionTitle
           eyebrow="Habilidades"
           title="Competencias clave"
-          subtitle="Balance entre habilidades blandas y técnicas para entregar productos sólidos y usables."
+          subtitle="Habilidades enfocadas en crear landing pages claras, rápidas y listas para convertir visitas en clientes."
         />
 
         <div className="skills-layout">
@@ -85,7 +81,7 @@ const Skills = () => {
           >
             <div className="skills-column-header">
               <Badge tone="ghost">Habilidades técnicas</Badge>
-              <p>Front, backend ligero y entrega de productos escalables.</p>
+              <p>Stack centrado en React, MySQL y buenas prácticas para landing pages y sitios one-page.</p>
             </div>
             <motion.div className="skills-grid tech-grid" variants={containerVariants} initial="hidden" animate={isInView ? 'visible' : 'hidden'}>
               {hardSkills.map((skill) => (
