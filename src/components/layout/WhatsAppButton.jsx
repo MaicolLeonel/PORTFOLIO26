@@ -6,7 +6,7 @@ const WhatsAppButton = () => {
   // Número de WhatsApp (formato internacional sin +)
   // Ejemplo: 5493812345678 (Argentina: 54, código de área: 381, número: 2345678)
   // IMPORTANTE: Reemplaza con tu número real
-  const phoneNumber = '5493812345678'; // Cambia este número por el tuyo
+  const phoneNumber = '5493816660527'; // Cambia este número por el tuyo
   const message = encodeURIComponent('¡Hola! Me interesa conocer más sobre tus servicios de desarrollo web.');
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
 
