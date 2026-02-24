@@ -48,8 +48,7 @@ const Hero = () => {
             <Typewriter
               texts={[
                 'Diseñador de Landing Pages',
-                'Landing pages que convierten visitas en clientes',
-                'Especialista en React & MySQL',
+                'Landing pages que convierten visitas en clientes'
                 'Sitios one-page rápidos y claros',
               ]}
               speed={90}
